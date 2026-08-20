@@ -1,6 +1,6 @@
 import { createContext, useState, type ReactNode } from "react";
 import type UsuarioLogin from "../models/UsuarioLogin";
-import axios, { create } from "axios";
+import axios from "axios";
 import { login } from "../services/Service";
 
 // definir os estados e funcoes disponibilizadas pela context
